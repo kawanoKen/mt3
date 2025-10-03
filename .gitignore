@@ -1,0 +1,15 @@
+*.wav
+*.mp3
+*.flac
+*.aac
+*.ogg
+
+*.mid
+*.png
+
+checkpoints/
+.eggs/
+
+__pycache__/
+test_out/
+test_wav/
