@@ -1,0 +1,40 @@
+Metadata-Version: 2.4
+Name: mt3
+Version: 0.0.1
+Summary: Multi-Task Multitrack Music Transcription
+Home-page: http://github.com/magenta/mt3
+Author: Google Inc.
+Author-email: no-reply@google.com
+License: Apache 2.0
+Keywords: music transcription machinelearning audio
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+License-File: LICENSE
+Requires-Dist: absl-py
+Requires-Dist: flax@ git+https://github.com/google/flax#egg=flax
+Requires-Dist: gin-config
+Requires-Dist: immutabledict
+Requires-Dist: librosa
+Requires-Dist: mir_eval
+Requires-Dist: note-seq@ git+https://github.com/magenta/note-seq#egg=note_seq
+Requires-Dist: numpy
+Requires-Dist: pretty_midi
+Requires-Dist: scikit-learn
+Requires-Dist: scipy
+Requires-Dist: seqio@ git+https://github.com/google/seqio#egg=seqio
+Requires-Dist: t5
+Requires-Dist: t5x@ git+https://github.com/google-research/t5x#egg=t5x
+Requires-Dist: tensorflow
+Requires-Dist: tensorflow-datasets
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: home-page
+Dynamic: keywords
+Dynamic: license
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: summary

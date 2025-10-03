@@ -1,0 +1,58 @@
+# Copyright 2024 The MT3 Authors.
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+name: build
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.11.x'
+    - name: Install dependencies
+      run: |
+        sudo apt-get -y install libsndfile1-dev
+        pip install pytest
+        git clone --branch=main https://github.com/google-research/t5x
+        cd t5x
+        python3 -m pip install -e . -f https://storage.googleapis.com/jax-releases/libtpu_releases.html
+        cd ..
+        pip install -e .
+    - name: Test with pytest
+      # TODO(adarob): Re-enable once tests are updated.
+      run: |
+        pytest mt3/
+    # The below step just reports the success or failure of tests as a "commit status".
+    # This is needed for copybara integration.
+    - name: Report success or failure as github status
+      if: always()
+      shell: bash
+      run: |
+        status="${{ job.status }}"
+        lowercase_status=$(echo $status | tr '[:upper:]' '[:lower:]')
+        curl -sS --request POST \
+        --url https://api.github.com/repos/${{ github.repository }}/statuses/${{ github.sha }} \
+        --header 'authorization: Bearer ${{ secrets.GITHUB_TOKEN }}' \
+        --header 'content-type: application/json' \
+        --data '{
+            "state": "'$lowercase_status'",
+            "target_url": "https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}",
+            "description": "'$status'",
+            "context": "github-actions/build"
+            }'

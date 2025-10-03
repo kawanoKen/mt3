@@ -1,0 +1,948 @@
+Variable decoder/decoder_norm/scale                                                       size 512          shape (embed=512)                              partition spec (None,)
+Variable decoder/layers_0/encoder_decoder_attention/key/kernel                            size 196608       shape (embed=512, joined_kv=384)               partition spec (None, 'model')
+Variable decoder/layers_0/encoder_decoder_attention/out/kernel                            size 196608       shape (joined_kv=384, embed=512)               partition spec ('model', None)
+Variable decoder/layers_0/encoder_decoder_attention/query/kernel                          size 196608       shape (embed=512, joined_kv=384)               partition spec (None, 'model')
+Variable decoder/layers_0/encoder_decoder_attention/value/kernel                          size 196608       shape (embed=512, joined_kv=384)               partition spec (None, 'model')
+Variable decoder/layers_0/mlp/wi_0/kernel                                                 size 524288       shape (embed=512, mlp=1024)                    partition spec (None, 'model')
+Variable decoder/layers_0/mlp/wi_1/kernel                                                 size 524288       shape (embed=512, mlp=1024)                    partition spec (None, 'model')
+Variable decoder/layers_0/mlp/wo/kernel                                                   size 524288       shape (mlp=1024, embed=512)                    partition spec ('model', None)
+Variable decoder/layers_0/pre_cross_attention_layer_norm/scale                            size 512          shape (embed=512)                              partition spec (None,)
+Variable decoder/layers_0/pre_mlp_layer_norm/scale                                        size 512          shape (embed=512)                              partition spec (None,)
+Variable decoder/layers_0/pre_self_attention_layer_norm/scale                             size 512          shape (embed=512)                              partition spec (None,)
+Variable decoder/layers_0/self_attention/key/kernel                                       size 196608       shape (embed=512, joined_kv=384)               partition spec (None, 'model')
+Variable decoder/layers_0/self_attention/out/kernel                                       size 196608       shape (joined_kv=384, embed=512)               partition spec ('model', None)
+Variable decoder/layers_0/self_attention/query/kernel                                     size 196608       shape (embed=512, joined_kv=384)               partition spec (None, 'model')
+Variable decoder/layers_0/self_attention/value/kernel                                     size 196608       shape (embed=512, joined_kv=384)               partition spec (None, 'model')
+Variable decoder/layers_1/encoder_decoder_attention/key/kernel                            size 196608       shape (embed=512, joined_kv=384)               partition spec (None, 'model')
+Variable decoder/layers_1/encoder_decoder_attention/out/kernel                            size 196608       shape (joined_kv=384, embed=512)               partition spec ('model', None)
+Variable decoder/layers_1/encoder_decoder_attention/query/kernel                          size 196608       shape (embed=512, joined_kv=384)               partition spec (None, 'model')
+Variable decoder/layers_1/encoder_decoder_attention/value/kernel                          size 196608       shape (embed=512, joined_kv=384)               partition spec (None, 'model')
+Variable decoder/layers_1/mlp/wi_0/kernel                                                 size 524288       shape (embed=512, mlp=1024)                    partition spec (None, 'model')
+Variable decoder/layers_1/mlp/wi_1/kernel                                                 size 524288       shape (embed=512, mlp=1024)                    partition spec (None, 'model')
+Variable decoder/layers_1/mlp/wo/kernel                                                   size 524288       shape (mlp=1024, embed=512)                    partition spec ('model', None)
+Variable decoder/layers_1/pre_cross_attention_layer_norm/scale                            size 512          shape (embed=512)                              partition spec (None,)
+Variable decoder/layers_1/pre_mlp_layer_norm/scale                                        size 512          shape (embed=512)                              partition spec (None,)
+Variable decoder/layers_1/pre_self_attention_layer_norm/scale                             size 512          shape (embed=512)                              partition spec (None,)
+Variable decoder/layers_1/self_attention/key/kernel                                       size 196608       shape (embed=512, joined_kv=384)               partition spec (None, 'model')
+Variable decoder/layers_1/self_attention/out/kernel                                       size 196608       shape (joined_kv=384, embed=512)               partition spec ('model', None)
+Variable decoder/layers_1/self_attention/query/kernel                                     size 196608       shape (embed=512, joined_kv=384)               partition spec (None, 'model')
+Variable decoder/layers_1/self_attention/value/kernel                                     size 196608       shape (embed=512, joined_kv=384)               partition spec (None, 'model')
+Variable decoder/layers_2/encoder_decoder_attention/key/kernel                            size 196608       shape (embed=512, joined_kv=384)               partition spec (None, 'model')
+Variable decoder/layers_2/encoder_decoder_attention/out/kernel                            size 196608       shape (joined_kv=384, embed=512)               partition spec ('model', None)
+Variable decoder/layers_2/encoder_decoder_attention/query/kernel                          size 196608       shape (embed=512, joined_kv=384)               partition spec (None, 'model')
+Variable decoder/layers_2/encoder_decoder_attention/value/kernel                          size 196608       shape (embed=512, joined_kv=384)               partition spec (None, 'model')
+Variable decoder/layers_2/mlp/wi_0/kernel                                                 size 524288       shape (embed=512, mlp=1024)                    partition spec (None, 'model')
+Variable decoder/layers_2/mlp/wi_1/kernel                                                 size 524288       shape (embed=512, mlp=1024)                    partition spec (None, 'model')
+Variable decoder/layers_2/mlp/wo/kernel                                                   size 524288       shape (mlp=1024, embed=512)                    partition spec ('model', None)
+Variable decoder/layers_2/pre_cross_attention_layer_norm/scale                            size 512          shape (embed=512)                              partition spec (None,)
+Variable decoder/layers_2/pre_mlp_layer_norm/scale                                        size 512          shape (embed=512)                              partition spec (None,)
+Variable decoder/layers_2/pre_self_attention_layer_norm/scale                             size 512          shape (embed=512)                              partition spec (None,)
+Variable decoder/layers_2/self_attention/key/kernel                                       size 196608       shape (embed=512, joined_kv=384)               partition spec (None, 'model')
+Variable decoder/layers_2/self_attention/out/kernel                                       size 196608       shape (joined_kv=384, embed=512)               partition spec ('model', None)
+Variable decoder/layers_2/self_attention/query/kernel                                     size 196608       shape (embed=512, joined_kv=384)               partition spec (None, 'model')
+Variable decoder/layers_2/self_attention/value/kernel                                     size 196608       shape (embed=512, joined_kv=384)               partition spec (None, 'model')
+Variable decoder/layers_3/encoder_decoder_attention/key/kernel                            size 196608       shape (embed=512, joined_kv=384)               partition spec (None, 'model')
+Variable decoder/layers_3/encoder_decoder_attention/out/kernel                            size 196608       shape (joined_kv=384, embed=512)               partition spec ('model', None)
+Variable decoder/layers_3/encoder_decoder_attention/query/kernel                          size 196608       shape (embed=512, joined_kv=384)               partition spec (None, 'model')
+Variable decoder/layers_3/encoder_decoder_attention/value/kernel                          size 196608       shape (embed=512, joined_kv=384)               partition spec (None, 'model')
+Variable decoder/layers_3/mlp/wi_0/kernel                                                 size 524288       shape (embed=512, mlp=1024)                    partition spec (None, 'model')
+Variable decoder/layers_3/mlp/wi_1/kernel                                                 size 524288       shape (embed=512, mlp=1024)                    partition spec (None, 'model')
+Variable decoder/layers_3/mlp/wo/kernel                                                   size 524288       shape (mlp=1024, embed=512)                    partition spec ('model', None)
+Variable decoder/layers_3/pre_cross_attention_layer_norm/scale                            size 512          shape (embed=512)                              partition spec (None,)
+Variable decoder/layers_3/pre_mlp_layer_norm/scale                                        size 512          shape (embed=512)                              partition spec (None,)
+Variable decoder/layers_3/pre_self_attention_layer_norm/scale                             size 512          shape (embed=512)                              partition spec (None,)
+Variable decoder/layers_3/self_attention/key/kernel                                       size 196608       shape (embed=512, joined_kv=384)               partition spec (None, 'model')
+Variable decoder/layers_3/self_attention/out/kernel                                       size 196608       shape (joined_kv=384, embed=512)               partition spec ('model', None)
+Variable decoder/layers_3/self_attention/query/kernel                                     size 196608       shape (embed=512, joined_kv=384)               partition spec (None, 'model')
+Variable decoder/layers_3/self_attention/value/kernel                                     size 196608       shape (embed=512, joined_kv=384)               partition spec (None, 'model')
+Variable decoder/layers_4/encoder_decoder_attention/key/kernel                            size 196608       shape (embed=512, joined_kv=384)               partition spec (None, 'model')
+Variable decoder/layers_4/encoder_decoder_attention/out/kernel                            size 196608       shape (joined_kv=384, embed=512)               partition spec ('model', None)
+Variable decoder/layers_4/encoder_decoder_attention/query/kernel                          size 196608       shape (embed=512, joined_kv=384)               partition spec (None, 'model')
+Variable decoder/layers_4/encoder_decoder_attention/value/kernel                          size 196608       shape (embed=512, joined_kv=384)               partition spec (None, 'model')
+Variable decoder/layers_4/mlp/wi_0/kernel                                                 size 524288       shape (embed=512, mlp=1024)                    partition spec (None, 'model')
+Variable decoder/layers_4/mlp/wi_1/kernel                                                 size 524288       shape (embed=512, mlp=1024)                    partition spec (None, 'model')
+Variable decoder/layers_4/mlp/wo/kernel                                                   size 524288       shape (mlp=1024, embed=512)                    partition spec ('model', None)
+Variable decoder/layers_4/pre_cross_attention_layer_norm/scale                            size 512          shape (embed=512)                              partition spec (None,)
+Variable decoder/layers_4/pre_mlp_layer_norm/scale                                        size 512          shape (embed=512)                              partition spec (None,)
+Variable decoder/layers_4/pre_self_attention_layer_norm/scale                             size 512          shape (embed=512)                              partition spec (None,)
+Variable decoder/layers_4/self_attention/key/kernel                                       size 196608       shape (embed=512, joined_kv=384)               partition spec (None, 'model')
+Variable decoder/layers_4/self_attention/out/kernel                                       size 196608       shape (joined_kv=384, embed=512)               partition spec ('model', None)
+Variable decoder/layers_4/self_attention/query/kernel                                     size 196608       shape (embed=512, joined_kv=384)               partition spec (None, 'model')
+Variable decoder/layers_4/self_attention/value/kernel                                     size 196608       shape (embed=512, joined_kv=384)               partition spec (None, 'model')
+Variable decoder/layers_5/encoder_decoder_attention/key/kernel                            size 196608       shape (embed=512, joined_kv=384)               partition spec (None, 'model')
+Variable decoder/layers_5/encoder_decoder_attention/out/kernel                            size 196608       shape (joined_kv=384, embed=512)               partition spec ('model', None)
+Variable decoder/layers_5/encoder_decoder_attention/query/kernel                          size 196608       shape (embed=512, joined_kv=384)               partition spec (None, 'model')
+Variable decoder/layers_5/encoder_decoder_attention/value/kernel                          size 196608       shape (embed=512, joined_kv=384)               partition spec (None, 'model')
+Variable decoder/layers_5/mlp/wi_0/kernel                                                 size 524288       shape (embed=512, mlp=1024)                    partition spec (None, 'model')
+Variable decoder/layers_5/mlp/wi_1/kernel                                                 size 524288       shape (embed=512, mlp=1024)                    partition spec (None, 'model')
+Variable decoder/layers_5/mlp/wo/kernel                                                   size 524288       shape (mlp=1024, embed=512)                    partition spec ('model', None)
+Variable decoder/layers_5/pre_cross_attention_layer_norm/scale                            size 512          shape (embed=512)                              partition spec (None,)
+Variable decoder/layers_5/pre_mlp_layer_norm/scale                                        size 512          shape (embed=512)                              partition spec (None,)
+Variable decoder/layers_5/pre_self_attention_layer_norm/scale                             size 512          shape (embed=512)                              partition spec (None,)
+Variable decoder/layers_5/self_attention/key/kernel                                       size 196608       shape (embed=512, joined_kv=384)               partition spec (None, 'model')
+Variable decoder/layers_5/self_attention/out/kernel                                       size 196608       shape (joined_kv=384, embed=512)               partition spec ('model', None)
+Variable decoder/layers_5/self_attention/query/kernel                                     size 196608       shape (embed=512, joined_kv=384)               partition spec (None, 'model')
+Variable decoder/layers_5/self_attention/value/kernel                                     size 196608       shape (embed=512, joined_kv=384)               partition spec (None, 'model')
+Variable decoder/layers_6/encoder_decoder_attention/key/kernel                            size 196608       shape (embed=512, joined_kv=384)               partition spec (None, 'model')
+Variable decoder/layers_6/encoder_decoder_attention/out/kernel                            size 196608       shape (joined_kv=384, embed=512)               partition spec ('model', None)
+Variable decoder/layers_6/encoder_decoder_attention/query/kernel                          size 196608       shape (embed=512, joined_kv=384)               partition spec (None, 'model')
+Variable decoder/layers_6/encoder_decoder_attention/value/kernel                          size 196608       shape (embed=512, joined_kv=384)               partition spec (None, 'model')
+Variable decoder/layers_6/mlp/wi_0/kernel                                                 size 524288       shape (embed=512, mlp=1024)                    partition spec (None, 'model')
+Variable decoder/layers_6/mlp/wi_1/kernel                                                 size 524288       shape (embed=512, mlp=1024)                    partition spec (None, 'model')
+Variable decoder/layers_6/mlp/wo/kernel                                                   size 524288       shape (mlp=1024, embed=512)                    partition spec ('model', None)
+Variable decoder/layers_6/pre_cross_attention_layer_norm/scale                            size 512          shape (embed=512)                              partition spec (None,)
+Variable decoder/layers_6/pre_mlp_layer_norm/scale                                        size 512          shape (embed=512)                              partition spec (None,)
+Variable decoder/layers_6/pre_self_attention_layer_norm/scale                             size 512          shape (embed=512)                              partition spec (None,)
+Variable decoder/layers_6/self_attention/key/kernel                                       size 196608       shape (embed=512, joined_kv=384)               partition spec (None, 'model')
+Variable decoder/layers_6/self_attention/out/kernel                                       size 196608       shape (joined_kv=384, embed=512)               partition spec ('model', None)
+Variable decoder/layers_6/self_attention/query/kernel                                     size 196608       shape (embed=512, joined_kv=384)               partition spec (None, 'model')
+Variable decoder/layers_6/self_attention/value/kernel                                     size 196608       shape (embed=512, joined_kv=384)               partition spec (None, 'model')
+Variable decoder/layers_7/encoder_decoder_attention/key/kernel                            size 196608       shape (embed=512, joined_kv=384)               partition spec (None, 'model')
+Variable decoder/layers_7/encoder_decoder_attention/out/kernel                            size 196608       shape (joined_kv=384, embed=512)               partition spec ('model', None)
+Variable decoder/layers_7/encoder_decoder_attention/query/kernel                          size 196608       shape (embed=512, joined_kv=384)               partition spec (None, 'model')
+Variable decoder/layers_7/encoder_decoder_attention/value/kernel                          size 196608       shape (embed=512, joined_kv=384)               partition spec (None, 'model')
+Variable decoder/layers_7/mlp/wi_0/kernel                                                 size 524288       shape (embed=512, mlp=1024)                    partition spec (None, 'model')
+Variable decoder/layers_7/mlp/wi_1/kernel                                                 size 524288       shape (embed=512, mlp=1024)                    partition spec (None, 'model')
+Variable decoder/layers_7/mlp/wo/kernel                                                   size 524288       shape (mlp=1024, embed=512)                    partition spec ('model', None)
+Variable decoder/layers_7/pre_cross_attention_layer_norm/scale                            size 512          shape (embed=512)                              partition spec (None,)
+Variable decoder/layers_7/pre_mlp_layer_norm/scale                                        size 512          shape (embed=512)                              partition spec (None,)
+Variable decoder/layers_7/pre_self_attention_layer_norm/scale                             size 512          shape (embed=512)                              partition spec (None,)
+Variable decoder/layers_7/self_attention/key/kernel                                       size 196608       shape (embed=512, joined_kv=384)               partition spec (None, 'model')
+Variable decoder/layers_7/self_attention/out/kernel                                       size 196608       shape (joined_kv=384, embed=512)               partition spec ('model', None)
+Variable decoder/layers_7/self_attention/query/kernel                                     size 196608       shape (embed=512, joined_kv=384)               partition spec (None, 'model')
+Variable decoder/layers_7/self_attention/value/kernel                                     size 196608       shape (embed=512, joined_kv=384)               partition spec (None, 'model')
+Variable decoder/logits_dense/kernel                                                      size 786432       shape (embed=512, vocab=1536)                  partition spec (None, 'model')
+Variable decoder/token_embedder/embedding                                                 size 786432       shape (vocab=1536, embed=512)                  partition spec ('model', None)
+Variable encoder/continuous_inputs_projection/kernel                                      size 262144       shape (vocab=512, embed=512)                   partition spec ('model', None)
+Variable encoder/encoder_norm/scale                                                       size 512          shape (embed=512)                              partition spec (None,)
+Variable encoder/layers_0/attention/key/kernel                                            size 196608       shape (embed=512, joined_kv=384)               partition spec (None, 'model')
+Variable encoder/layers_0/attention/out/kernel                                            size 196608       shape (joined_kv=384, embed=512)               partition spec ('model', None)
+Variable encoder/layers_0/attention/query/kernel                                          size 196608       shape (embed=512, joined_kv=384)               partition spec (None, 'model')
+Variable encoder/layers_0/attention/value/kernel                                          size 196608       shape (embed=512, joined_kv=384)               partition spec (None, 'model')
+Variable encoder/layers_0/mlp/wi_0/kernel                                                 size 524288       shape (embed=512, mlp=1024)                    partition spec (None, 'model')
+Variable encoder/layers_0/mlp/wi_1/kernel                                                 size 524288       shape (embed=512, mlp=1024)                    partition spec (None, 'model')
+Variable encoder/layers_0/mlp/wo/kernel                                                   size 524288       shape (mlp=1024, embed=512)                    partition spec ('model', None)
+Variable encoder/layers_0/pre_attention_layer_norm/scale                                  size 512          shape (embed=512)                              partition spec (None,)
+Variable encoder/layers_0/pre_mlp_layer_norm/scale                                        size 512          shape (embed=512)                              partition spec (None,)
+Variable encoder/layers_1/attention/key/kernel                                            size 196608       shape (embed=512, joined_kv=384)               partition spec (None, 'model')
+Variable encoder/layers_1/attention/out/kernel                                            size 196608       shape (joined_kv=384, embed=512)               partition spec ('model', None)
+Variable encoder/layers_1/attention/query/kernel                                          size 196608       shape (embed=512, joined_kv=384)               partition spec (None, 'model')
+Variable encoder/layers_1/attention/value/kernel                                          size 196608       shape (embed=512, joined_kv=384)               partition spec (None, 'model')
+Variable encoder/layers_1/mlp/wi_0/kernel                                                 size 524288       shape (embed=512, mlp=1024)                    partition spec (None, 'model')
+Variable encoder/layers_1/mlp/wi_1/kernel                                                 size 524288       shape (embed=512, mlp=1024)                    partition spec (None, 'model')
+Variable encoder/layers_1/mlp/wo/kernel                                                   size 524288       shape (mlp=1024, embed=512)                    partition spec ('model', None)
+Variable encoder/layers_1/pre_attention_layer_norm/scale                                  size 512          shape (embed=512)                              partition spec (None,)
+Variable encoder/layers_1/pre_mlp_layer_norm/scale                                        size 512          shape (embed=512)                              partition spec (None,)
+Variable encoder/layers_2/attention/key/kernel                                            size 196608       shape (embed=512, joined_kv=384)               partition spec (None, 'model')
+Variable encoder/layers_2/attention/out/kernel                                            size 196608       shape (joined_kv=384, embed=512)               partition spec ('model', None)
+Variable encoder/layers_2/attention/query/kernel                                          size 196608       shape (embed=512, joined_kv=384)               partition spec (None, 'model')
+Variable encoder/layers_2/attention/value/kernel                                          size 196608       shape (embed=512, joined_kv=384)               partition spec (None, 'model')
+Variable encoder/layers_2/mlp/wi_0/kernel                                                 size 524288       shape (embed=512, mlp=1024)                    partition spec (None, 'model')
+Variable encoder/layers_2/mlp/wi_1/kernel                                                 size 524288       shape (embed=512, mlp=1024)                    partition spec (None, 'model')
+Variable encoder/layers_2/mlp/wo/kernel                                                   size 524288       shape (mlp=1024, embed=512)                    partition spec ('model', None)
+Variable encoder/layers_2/pre_attention_layer_norm/scale                                  size 512          shape (embed=512)                              partition spec (None,)
+Variable encoder/layers_2/pre_mlp_layer_norm/scale                                        size 512          shape (embed=512)                              partition spec (None,)
+Variable encoder/layers_3/attention/key/kernel                                            size 196608       shape (embed=512, joined_kv=384)               partition spec (None, 'model')
+Variable encoder/layers_3/attention/out/kernel                                            size 196608       shape (joined_kv=384, embed=512)               partition spec ('model', None)
+Variable encoder/layers_3/attention/query/kernel                                          size 196608       shape (embed=512, joined_kv=384)               partition spec (None, 'model')
+Variable encoder/layers_3/attention/value/kernel                                          size 196608       shape (embed=512, joined_kv=384)               partition spec (None, 'model')
+Variable encoder/layers_3/mlp/wi_0/kernel                                                 size 524288       shape (embed=512, mlp=1024)                    partition spec (None, 'model')
+Variable encoder/layers_3/mlp/wi_1/kernel                                                 size 524288       shape (embed=512, mlp=1024)                    partition spec (None, 'model')
+Variable encoder/layers_3/mlp/wo/kernel                                                   size 524288       shape (mlp=1024, embed=512)                    partition spec ('model', None)
+Variable encoder/layers_3/pre_attention_layer_norm/scale                                  size 512          shape (embed=512)                              partition spec (None,)
+Variable encoder/layers_3/pre_mlp_layer_norm/scale                                        size 512          shape (embed=512)                              partition spec (None,)
+Variable encoder/layers_4/attention/key/kernel                                            size 196608       shape (embed=512, joined_kv=384)               partition spec (None, 'model')
+Variable encoder/layers_4/attention/out/kernel                                            size 196608       shape (joined_kv=384, embed=512)               partition spec ('model', None)
+Variable encoder/layers_4/attention/query/kernel                                          size 196608       shape (embed=512, joined_kv=384)               partition spec (None, 'model')
+Variable encoder/layers_4/attention/value/kernel                                          size 196608       shape (embed=512, joined_kv=384)               partition spec (None, 'model')
+Variable encoder/layers_4/mlp/wi_0/kernel                                                 size 524288       shape (embed=512, mlp=1024)                    partition spec (None, 'model')
+Variable encoder/layers_4/mlp/wi_1/kernel                                                 size 524288       shape (embed=512, mlp=1024)                    partition spec (None, 'model')
+Variable encoder/layers_4/mlp/wo/kernel                                                   size 524288       shape (mlp=1024, embed=512)                    partition spec ('model', None)
+Variable encoder/layers_4/pre_attention_layer_norm/scale                                  size 512          shape (embed=512)                              partition spec (None,)
+Variable encoder/layers_4/pre_mlp_layer_norm/scale                                        size 512          shape (embed=512)                              partition spec (None,)
+Variable encoder/layers_5/attention/key/kernel                                            size 196608       shape (embed=512, joined_kv=384)               partition spec (None, 'model')
+Variable encoder/layers_5/attention/out/kernel                                            size 196608       shape (joined_kv=384, embed=512)               partition spec ('model', None)
+Variable encoder/layers_5/attention/query/kernel                                          size 196608       shape (embed=512, joined_kv=384)               partition spec (None, 'model')
+Variable encoder/layers_5/attention/value/kernel                                          size 196608       shape (embed=512, joined_kv=384)               partition spec (None, 'model')
+Variable encoder/layers_5/mlp/wi_0/kernel                                                 size 524288       shape (embed=512, mlp=1024)                    partition spec (None, 'model')
+Variable encoder/layers_5/mlp/wi_1/kernel                                                 size 524288       shape (embed=512, mlp=1024)                    partition spec (None, 'model')
+Variable encoder/layers_5/mlp/wo/kernel                                                   size 524288       shape (mlp=1024, embed=512)                    partition spec ('model', None)
+Variable encoder/layers_5/pre_attention_layer_norm/scale                                  size 512          shape (embed=512)                              partition spec (None,)
+Variable encoder/layers_5/pre_mlp_layer_norm/scale                                        size 512          shape (embed=512)                              partition spec (None,)
+Variable encoder/layers_6/attention/key/kernel                                            size 196608       shape (embed=512, joined_kv=384)               partition spec (None, 'model')
+Variable encoder/layers_6/attention/out/kernel                                            size 196608       shape (joined_kv=384, embed=512)               partition spec ('model', None)
+Variable encoder/layers_6/attention/query/kernel                                          size 196608       shape (embed=512, joined_kv=384)               partition spec (None, 'model')
+Variable encoder/layers_6/attention/value/kernel                                          size 196608       shape (embed=512, joined_kv=384)               partition spec (None, 'model')
+Variable encoder/layers_6/mlp/wi_0/kernel                                                 size 524288       shape (embed=512, mlp=1024)                    partition spec (None, 'model')
+Variable encoder/layers_6/mlp/wi_1/kernel                                                 size 524288       shape (embed=512, mlp=1024)                    partition spec (None, 'model')
+Variable encoder/layers_6/mlp/wo/kernel                                                   size 524288       shape (mlp=1024, embed=512)                    partition spec ('model', None)
+Variable encoder/layers_6/pre_attention_layer_norm/scale                                  size 512          shape (embed=512)                              partition spec (None,)
+Variable encoder/layers_6/pre_mlp_layer_norm/scale                                        size 512          shape (embed=512)                              partition spec (None,)
+Variable encoder/layers_7/attention/key/kernel                                            size 196608       shape (embed=512, joined_kv=384)               partition spec (None, 'model')
+Variable encoder/layers_7/attention/out/kernel                                            size 196608       shape (joined_kv=384, embed=512)               partition spec ('model', None)
+Variable encoder/layers_7/attention/query/kernel                                          size 196608       shape (embed=512, joined_kv=384)               partition spec (None, 'model')
+Variable encoder/layers_7/attention/value/kernel                                          size 196608       shape (embed=512, joined_kv=384)               partition spec (None, 'model')
+Variable encoder/layers_7/mlp/wi_0/kernel                                                 size 524288       shape (embed=512, mlp=1024)                    partition spec (None, 'model')
+Variable encoder/layers_7/mlp/wi_1/kernel                                                 size 524288       shape (embed=512, mlp=1024)                    partition spec (None, 'model')
+Variable encoder/layers_7/mlp/wo/kernel                                                   size 524288       shape (mlp=1024, embed=512)                    partition spec ('model', None)
+Variable encoder/layers_7/pre_attention_layer_norm/scale                                  size 512          shape (embed=512)                              partition spec (None,)
+Variable encoder/layers_7/pre_mlp_layer_norm/scale                                        size 512          shape (embed=512)                              partition spec (None,)
+Total number of parameters: 45896704
+
+Variable param_states/decoder/decoder_norm/scale/m                                        size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/decoder_norm/scale/v                                        size 512          shape (embed=512)                              partition spec (None,)
+Variable param_states/decoder/decoder_norm/scale/v_col                                    size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/decoder_norm/scale/v_row                                    size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_0/encoder_decoder_attention/key/kernel/m             size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_0/encoder_decoder_attention/key/kernel/v             size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_0/encoder_decoder_attention/key/kernel/v_col         size 512          shape (512,)                                   partition spec None
+Variable param_states/decoder/layers_0/encoder_decoder_attention/key/kernel/v_row         size 384          shape (384,)                                   partition spec None
+Variable param_states/decoder/layers_0/encoder_decoder_attention/out/kernel/m             size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_0/encoder_decoder_attention/out/kernel/v             size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_0/encoder_decoder_attention/out/kernel/v_col         size 512          shape (512,)                                   partition spec None
+Variable param_states/decoder/layers_0/encoder_decoder_attention/out/kernel/v_row         size 384          shape (384,)                                   partition spec None
+Variable param_states/decoder/layers_0/encoder_decoder_attention/query/kernel/m           size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_0/encoder_decoder_attention/query/kernel/v           size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_0/encoder_decoder_attention/query/kernel/v_col       size 512          shape (512,)                                   partition spec None
+Variable param_states/decoder/layers_0/encoder_decoder_attention/query/kernel/v_row       size 384          shape (384,)                                   partition spec None
+Variable param_states/decoder/layers_0/encoder_decoder_attention/value/kernel/m           size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_0/encoder_decoder_attention/value/kernel/v           size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_0/encoder_decoder_attention/value/kernel/v_col       size 512          shape (512,)                                   partition spec None
+Variable param_states/decoder/layers_0/encoder_decoder_attention/value/kernel/v_row       size 384          shape (384,)                                   partition spec None
+Variable param_states/decoder/layers_0/mlp/wi_0/kernel/m                                  size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_0/mlp/wi_0/kernel/v                                  size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_0/mlp/wi_0/kernel/v_col                              size 1024         shape (1024,)                                  partition spec None
+Variable param_states/decoder/layers_0/mlp/wi_0/kernel/v_row                              size 512          shape (512,)                                   partition spec None
+Variable param_states/decoder/layers_0/mlp/wi_1/kernel/m                                  size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_0/mlp/wi_1/kernel/v                                  size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_0/mlp/wi_1/kernel/v_col                              size 1024         shape (1024,)                                  partition spec None
+Variable param_states/decoder/layers_0/mlp/wi_1/kernel/v_row                              size 512          shape (512,)                                   partition spec None
+Variable param_states/decoder/layers_0/mlp/wo/kernel/m                                    size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_0/mlp/wo/kernel/v                                    size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_0/mlp/wo/kernel/v_col                                size 1024         shape (1024,)                                  partition spec None
+Variable param_states/decoder/layers_0/mlp/wo/kernel/v_row                                size 512          shape (512,)                                   partition spec None
+Variable param_states/decoder/layers_0/pre_cross_attention_layer_norm/scale/m             size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_0/pre_cross_attention_layer_norm/scale/v             size 512          shape (embed=512)                              partition spec (None,)
+Variable param_states/decoder/layers_0/pre_cross_attention_layer_norm/scale/v_col         size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_0/pre_cross_attention_layer_norm/scale/v_row         size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_0/pre_mlp_layer_norm/scale/m                         size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_0/pre_mlp_layer_norm/scale/v                         size 512          shape (embed=512)                              partition spec (None,)
+Variable param_states/decoder/layers_0/pre_mlp_layer_norm/scale/v_col                     size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_0/pre_mlp_layer_norm/scale/v_row                     size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_0/pre_self_attention_layer_norm/scale/m              size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_0/pre_self_attention_layer_norm/scale/v              size 512          shape (embed=512)                              partition spec (None,)
+Variable param_states/decoder/layers_0/pre_self_attention_layer_norm/scale/v_col          size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_0/pre_self_attention_layer_norm/scale/v_row          size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_0/self_attention/key/kernel/m                        size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_0/self_attention/key/kernel/v                        size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_0/self_attention/key/kernel/v_col                    size 512          shape (512,)                                   partition spec None
+Variable param_states/decoder/layers_0/self_attention/key/kernel/v_row                    size 384          shape (384,)                                   partition spec None
+Variable param_states/decoder/layers_0/self_attention/out/kernel/m                        size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_0/self_attention/out/kernel/v                        size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_0/self_attention/out/kernel/v_col                    size 512          shape (512,)                                   partition spec None
+Variable param_states/decoder/layers_0/self_attention/out/kernel/v_row                    size 384          shape (384,)                                   partition spec None
+Variable param_states/decoder/layers_0/self_attention/query/kernel/m                      size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_0/self_attention/query/kernel/v                      size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_0/self_attention/query/kernel/v_col                  size 512          shape (512,)                                   partition spec None
+Variable param_states/decoder/layers_0/self_attention/query/kernel/v_row                  size 384          shape (384,)                                   partition spec None
+Variable param_states/decoder/layers_0/self_attention/value/kernel/m                      size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_0/self_attention/value/kernel/v                      size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_0/self_attention/value/kernel/v_col                  size 512          shape (512,)                                   partition spec None
+Variable param_states/decoder/layers_0/self_attention/value/kernel/v_row                  size 384          shape (384,)                                   partition spec None
+Variable param_states/decoder/layers_1/encoder_decoder_attention/key/kernel/m             size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_1/encoder_decoder_attention/key/kernel/v             size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_1/encoder_decoder_attention/key/kernel/v_col         size 512          shape (512,)                                   partition spec None
+Variable param_states/decoder/layers_1/encoder_decoder_attention/key/kernel/v_row         size 384          shape (384,)                                   partition spec None
+Variable param_states/decoder/layers_1/encoder_decoder_attention/out/kernel/m             size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_1/encoder_decoder_attention/out/kernel/v             size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_1/encoder_decoder_attention/out/kernel/v_col         size 512          shape (512,)                                   partition spec None
+Variable param_states/decoder/layers_1/encoder_decoder_attention/out/kernel/v_row         size 384          shape (384,)                                   partition spec None
+Variable param_states/decoder/layers_1/encoder_decoder_attention/query/kernel/m           size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_1/encoder_decoder_attention/query/kernel/v           size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_1/encoder_decoder_attention/query/kernel/v_col       size 512          shape (512,)                                   partition spec None
+Variable param_states/decoder/layers_1/encoder_decoder_attention/query/kernel/v_row       size 384          shape (384,)                                   partition spec None
+Variable param_states/decoder/layers_1/encoder_decoder_attention/value/kernel/m           size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_1/encoder_decoder_attention/value/kernel/v           size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_1/encoder_decoder_attention/value/kernel/v_col       size 512          shape (512,)                                   partition spec None
+Variable param_states/decoder/layers_1/encoder_decoder_attention/value/kernel/v_row       size 384          shape (384,)                                   partition spec None
+Variable param_states/decoder/layers_1/mlp/wi_0/kernel/m                                  size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_1/mlp/wi_0/kernel/v                                  size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_1/mlp/wi_0/kernel/v_col                              size 1024         shape (1024,)                                  partition spec None
+Variable param_states/decoder/layers_1/mlp/wi_0/kernel/v_row                              size 512          shape (512,)                                   partition spec None
+Variable param_states/decoder/layers_1/mlp/wi_1/kernel/m                                  size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_1/mlp/wi_1/kernel/v                                  size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_1/mlp/wi_1/kernel/v_col                              size 1024         shape (1024,)                                  partition spec None
+Variable param_states/decoder/layers_1/mlp/wi_1/kernel/v_row                              size 512          shape (512,)                                   partition spec None
+Variable param_states/decoder/layers_1/mlp/wo/kernel/m                                    size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_1/mlp/wo/kernel/v                                    size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_1/mlp/wo/kernel/v_col                                size 1024         shape (1024,)                                  partition spec None
+Variable param_states/decoder/layers_1/mlp/wo/kernel/v_row                                size 512          shape (512,)                                   partition spec None
+Variable param_states/decoder/layers_1/pre_cross_attention_layer_norm/scale/m             size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_1/pre_cross_attention_layer_norm/scale/v             size 512          shape (embed=512)                              partition spec (None,)
+Variable param_states/decoder/layers_1/pre_cross_attention_layer_norm/scale/v_col         size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_1/pre_cross_attention_layer_norm/scale/v_row         size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_1/pre_mlp_layer_norm/scale/m                         size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_1/pre_mlp_layer_norm/scale/v                         size 512          shape (embed=512)                              partition spec (None,)
+Variable param_states/decoder/layers_1/pre_mlp_layer_norm/scale/v_col                     size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_1/pre_mlp_layer_norm/scale/v_row                     size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_1/pre_self_attention_layer_norm/scale/m              size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_1/pre_self_attention_layer_norm/scale/v              size 512          shape (embed=512)                              partition spec (None,)
+Variable param_states/decoder/layers_1/pre_self_attention_layer_norm/scale/v_col          size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_1/pre_self_attention_layer_norm/scale/v_row          size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_1/self_attention/key/kernel/m                        size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_1/self_attention/key/kernel/v                        size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_1/self_attention/key/kernel/v_col                    size 512          shape (512,)                                   partition spec None
+Variable param_states/decoder/layers_1/self_attention/key/kernel/v_row                    size 384          shape (384,)                                   partition spec None
+Variable param_states/decoder/layers_1/self_attention/out/kernel/m                        size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_1/self_attention/out/kernel/v                        size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_1/self_attention/out/kernel/v_col                    size 512          shape (512,)                                   partition spec None
+Variable param_states/decoder/layers_1/self_attention/out/kernel/v_row                    size 384          shape (384,)                                   partition spec None
+Variable param_states/decoder/layers_1/self_attention/query/kernel/m                      size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_1/self_attention/query/kernel/v                      size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_1/self_attention/query/kernel/v_col                  size 512          shape (512,)                                   partition spec None
+Variable param_states/decoder/layers_1/self_attention/query/kernel/v_row                  size 384          shape (384,)                                   partition spec None
+Variable param_states/decoder/layers_1/self_attention/value/kernel/m                      size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_1/self_attention/value/kernel/v                      size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_1/self_attention/value/kernel/v_col                  size 512          shape (512,)                                   partition spec None
+Variable param_states/decoder/layers_1/self_attention/value/kernel/v_row                  size 384          shape (384,)                                   partition spec None
+Variable param_states/decoder/layers_2/encoder_decoder_attention/key/kernel/m             size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_2/encoder_decoder_attention/key/kernel/v             size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_2/encoder_decoder_attention/key/kernel/v_col         size 512          shape (512,)                                   partition spec None
+Variable param_states/decoder/layers_2/encoder_decoder_attention/key/kernel/v_row         size 384          shape (384,)                                   partition spec None
+Variable param_states/decoder/layers_2/encoder_decoder_attention/out/kernel/m             size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_2/encoder_decoder_attention/out/kernel/v             size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_2/encoder_decoder_attention/out/kernel/v_col         size 512          shape (512,)                                   partition spec None
+Variable param_states/decoder/layers_2/encoder_decoder_attention/out/kernel/v_row         size 384          shape (384,)                                   partition spec None
+Variable param_states/decoder/layers_2/encoder_decoder_attention/query/kernel/m           size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_2/encoder_decoder_attention/query/kernel/v           size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_2/encoder_decoder_attention/query/kernel/v_col       size 512          shape (512,)                                   partition spec None
+Variable param_states/decoder/layers_2/encoder_decoder_attention/query/kernel/v_row       size 384          shape (384,)                                   partition spec None
+Variable param_states/decoder/layers_2/encoder_decoder_attention/value/kernel/m           size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_2/encoder_decoder_attention/value/kernel/v           size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_2/encoder_decoder_attention/value/kernel/v_col       size 512          shape (512,)                                   partition spec None
+Variable param_states/decoder/layers_2/encoder_decoder_attention/value/kernel/v_row       size 384          shape (384,)                                   partition spec None
+Variable param_states/decoder/layers_2/mlp/wi_0/kernel/m                                  size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_2/mlp/wi_0/kernel/v                                  size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_2/mlp/wi_0/kernel/v_col                              size 1024         shape (1024,)                                  partition spec None
+Variable param_states/decoder/layers_2/mlp/wi_0/kernel/v_row                              size 512          shape (512,)                                   partition spec None
+Variable param_states/decoder/layers_2/mlp/wi_1/kernel/m                                  size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_2/mlp/wi_1/kernel/v                                  size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_2/mlp/wi_1/kernel/v_col                              size 1024         shape (1024,)                                  partition spec None
+Variable param_states/decoder/layers_2/mlp/wi_1/kernel/v_row                              size 512          shape (512,)                                   partition spec None
+Variable param_states/decoder/layers_2/mlp/wo/kernel/m                                    size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_2/mlp/wo/kernel/v                                    size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_2/mlp/wo/kernel/v_col                                size 1024         shape (1024,)                                  partition spec None
+Variable param_states/decoder/layers_2/mlp/wo/kernel/v_row                                size 512          shape (512,)                                   partition spec None
+Variable param_states/decoder/layers_2/pre_cross_attention_layer_norm/scale/m             size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_2/pre_cross_attention_layer_norm/scale/v             size 512          shape (embed=512)                              partition spec (None,)
+Variable param_states/decoder/layers_2/pre_cross_attention_layer_norm/scale/v_col         size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_2/pre_cross_attention_layer_norm/scale/v_row         size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_2/pre_mlp_layer_norm/scale/m                         size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_2/pre_mlp_layer_norm/scale/v                         size 512          shape (embed=512)                              partition spec (None,)
+Variable param_states/decoder/layers_2/pre_mlp_layer_norm/scale/v_col                     size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_2/pre_mlp_layer_norm/scale/v_row                     size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_2/pre_self_attention_layer_norm/scale/m              size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_2/pre_self_attention_layer_norm/scale/v              size 512          shape (embed=512)                              partition spec (None,)
+Variable param_states/decoder/layers_2/pre_self_attention_layer_norm/scale/v_col          size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_2/pre_self_attention_layer_norm/scale/v_row          size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_2/self_attention/key/kernel/m                        size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_2/self_attention/key/kernel/v                        size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_2/self_attention/key/kernel/v_col                    size 512          shape (512,)                                   partition spec None
+Variable param_states/decoder/layers_2/self_attention/key/kernel/v_row                    size 384          shape (384,)                                   partition spec None
+Variable param_states/decoder/layers_2/self_attention/out/kernel/m                        size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_2/self_attention/out/kernel/v                        size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_2/self_attention/out/kernel/v_col                    size 512          shape (512,)                                   partition spec None
+Variable param_states/decoder/layers_2/self_attention/out/kernel/v_row                    size 384          shape (384,)                                   partition spec None
+Variable param_states/decoder/layers_2/self_attention/query/kernel/m                      size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_2/self_attention/query/kernel/v                      size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_2/self_attention/query/kernel/v_col                  size 512          shape (512,)                                   partition spec None
+Variable param_states/decoder/layers_2/self_attention/query/kernel/v_row                  size 384          shape (384,)                                   partition spec None
+Variable param_states/decoder/layers_2/self_attention/value/kernel/m                      size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_2/self_attention/value/kernel/v                      size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_2/self_attention/value/kernel/v_col                  size 512          shape (512,)                                   partition spec None
+Variable param_states/decoder/layers_2/self_attention/value/kernel/v_row                  size 384          shape (384,)                                   partition spec None
+Variable param_states/decoder/layers_3/encoder_decoder_attention/key/kernel/m             size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_3/encoder_decoder_attention/key/kernel/v             size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_3/encoder_decoder_attention/key/kernel/v_col         size 512          shape (512,)                                   partition spec None
+Variable param_states/decoder/layers_3/encoder_decoder_attention/key/kernel/v_row         size 384          shape (384,)                                   partition spec None
+Variable param_states/decoder/layers_3/encoder_decoder_attention/out/kernel/m             size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_3/encoder_decoder_attention/out/kernel/v             size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_3/encoder_decoder_attention/out/kernel/v_col         size 512          shape (512,)                                   partition spec None
+Variable param_states/decoder/layers_3/encoder_decoder_attention/out/kernel/v_row         size 384          shape (384,)                                   partition spec None
+Variable param_states/decoder/layers_3/encoder_decoder_attention/query/kernel/m           size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_3/encoder_decoder_attention/query/kernel/v           size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_3/encoder_decoder_attention/query/kernel/v_col       size 512          shape (512,)                                   partition spec None
+Variable param_states/decoder/layers_3/encoder_decoder_attention/query/kernel/v_row       size 384          shape (384,)                                   partition spec None
+Variable param_states/decoder/layers_3/encoder_decoder_attention/value/kernel/m           size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_3/encoder_decoder_attention/value/kernel/v           size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_3/encoder_decoder_attention/value/kernel/v_col       size 512          shape (512,)                                   partition spec None
+Variable param_states/decoder/layers_3/encoder_decoder_attention/value/kernel/v_row       size 384          shape (384,)                                   partition spec None
+Variable param_states/decoder/layers_3/mlp/wi_0/kernel/m                                  size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_3/mlp/wi_0/kernel/v                                  size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_3/mlp/wi_0/kernel/v_col                              size 1024         shape (1024,)                                  partition spec None
+Variable param_states/decoder/layers_3/mlp/wi_0/kernel/v_row                              size 512          shape (512,)                                   partition spec None
+Variable param_states/decoder/layers_3/mlp/wi_1/kernel/m                                  size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_3/mlp/wi_1/kernel/v                                  size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_3/mlp/wi_1/kernel/v_col                              size 1024         shape (1024,)                                  partition spec None
+Variable param_states/decoder/layers_3/mlp/wi_1/kernel/v_row                              size 512          shape (512,)                                   partition spec None
+Variable param_states/decoder/layers_3/mlp/wo/kernel/m                                    size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_3/mlp/wo/kernel/v                                    size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_3/mlp/wo/kernel/v_col                                size 1024         shape (1024,)                                  partition spec None
+Variable param_states/decoder/layers_3/mlp/wo/kernel/v_row                                size 512          shape (512,)                                   partition spec None
+Variable param_states/decoder/layers_3/pre_cross_attention_layer_norm/scale/m             size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_3/pre_cross_attention_layer_norm/scale/v             size 512          shape (embed=512)                              partition spec (None,)
+Variable param_states/decoder/layers_3/pre_cross_attention_layer_norm/scale/v_col         size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_3/pre_cross_attention_layer_norm/scale/v_row         size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_3/pre_mlp_layer_norm/scale/m                         size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_3/pre_mlp_layer_norm/scale/v                         size 512          shape (embed=512)                              partition spec (None,)
+Variable param_states/decoder/layers_3/pre_mlp_layer_norm/scale/v_col                     size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_3/pre_mlp_layer_norm/scale/v_row                     size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_3/pre_self_attention_layer_norm/scale/m              size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_3/pre_self_attention_layer_norm/scale/v              size 512          shape (embed=512)                              partition spec (None,)
+Variable param_states/decoder/layers_3/pre_self_attention_layer_norm/scale/v_col          size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_3/pre_self_attention_layer_norm/scale/v_row          size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_3/self_attention/key/kernel/m                        size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_3/self_attention/key/kernel/v                        size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_3/self_attention/key/kernel/v_col                    size 512          shape (512,)                                   partition spec None
+Variable param_states/decoder/layers_3/self_attention/key/kernel/v_row                    size 384          shape (384,)                                   partition spec None
+Variable param_states/decoder/layers_3/self_attention/out/kernel/m                        size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_3/self_attention/out/kernel/v                        size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_3/self_attention/out/kernel/v_col                    size 512          shape (512,)                                   partition spec None
+Variable param_states/decoder/layers_3/self_attention/out/kernel/v_row                    size 384          shape (384,)                                   partition spec None
+Variable param_states/decoder/layers_3/self_attention/query/kernel/m                      size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_3/self_attention/query/kernel/v                      size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_3/self_attention/query/kernel/v_col                  size 512          shape (512,)                                   partition spec None
+Variable param_states/decoder/layers_3/self_attention/query/kernel/v_row                  size 384          shape (384,)                                   partition spec None
+Variable param_states/decoder/layers_3/self_attention/value/kernel/m                      size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_3/self_attention/value/kernel/v                      size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_3/self_attention/value/kernel/v_col                  size 512          shape (512,)                                   partition spec None
+Variable param_states/decoder/layers_3/self_attention/value/kernel/v_row                  size 384          shape (384,)                                   partition spec None
+Variable param_states/decoder/layers_4/encoder_decoder_attention/key/kernel/m             size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_4/encoder_decoder_attention/key/kernel/v             size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_4/encoder_decoder_attention/key/kernel/v_col         size 512          shape (512,)                                   partition spec None
+Variable param_states/decoder/layers_4/encoder_decoder_attention/key/kernel/v_row         size 384          shape (384,)                                   partition spec None
+Variable param_states/decoder/layers_4/encoder_decoder_attention/out/kernel/m             size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_4/encoder_decoder_attention/out/kernel/v             size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_4/encoder_decoder_attention/out/kernel/v_col         size 512          shape (512,)                                   partition spec None
+Variable param_states/decoder/layers_4/encoder_decoder_attention/out/kernel/v_row         size 384          shape (384,)                                   partition spec None
+Variable param_states/decoder/layers_4/encoder_decoder_attention/query/kernel/m           size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_4/encoder_decoder_attention/query/kernel/v           size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_4/encoder_decoder_attention/query/kernel/v_col       size 512          shape (512,)                                   partition spec None
+Variable param_states/decoder/layers_4/encoder_decoder_attention/query/kernel/v_row       size 384          shape (384,)                                   partition spec None
+Variable param_states/decoder/layers_4/encoder_decoder_attention/value/kernel/m           size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_4/encoder_decoder_attention/value/kernel/v           size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_4/encoder_decoder_attention/value/kernel/v_col       size 512          shape (512,)                                   partition spec None
+Variable param_states/decoder/layers_4/encoder_decoder_attention/value/kernel/v_row       size 384          shape (384,)                                   partition spec None
+Variable param_states/decoder/layers_4/mlp/wi_0/kernel/m                                  size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_4/mlp/wi_0/kernel/v                                  size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_4/mlp/wi_0/kernel/v_col                              size 1024         shape (1024,)                                  partition spec None
+Variable param_states/decoder/layers_4/mlp/wi_0/kernel/v_row                              size 512          shape (512,)                                   partition spec None
+Variable param_states/decoder/layers_4/mlp/wi_1/kernel/m                                  size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_4/mlp/wi_1/kernel/v                                  size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_4/mlp/wi_1/kernel/v_col                              size 1024         shape (1024,)                                  partition spec None
+Variable param_states/decoder/layers_4/mlp/wi_1/kernel/v_row                              size 512          shape (512,)                                   partition spec None
+Variable param_states/decoder/layers_4/mlp/wo/kernel/m                                    size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_4/mlp/wo/kernel/v                                    size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_4/mlp/wo/kernel/v_col                                size 1024         shape (1024,)                                  partition spec None
+Variable param_states/decoder/layers_4/mlp/wo/kernel/v_row                                size 512          shape (512,)                                   partition spec None
+Variable param_states/decoder/layers_4/pre_cross_attention_layer_norm/scale/m             size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_4/pre_cross_attention_layer_norm/scale/v             size 512          shape (embed=512)                              partition spec (None,)
+Variable param_states/decoder/layers_4/pre_cross_attention_layer_norm/scale/v_col         size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_4/pre_cross_attention_layer_norm/scale/v_row         size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_4/pre_mlp_layer_norm/scale/m                         size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_4/pre_mlp_layer_norm/scale/v                         size 512          shape (embed=512)                              partition spec (None,)
+Variable param_states/decoder/layers_4/pre_mlp_layer_norm/scale/v_col                     size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_4/pre_mlp_layer_norm/scale/v_row                     size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_4/pre_self_attention_layer_norm/scale/m              size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_4/pre_self_attention_layer_norm/scale/v              size 512          shape (embed=512)                              partition spec (None,)
+Variable param_states/decoder/layers_4/pre_self_attention_layer_norm/scale/v_col          size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_4/pre_self_attention_layer_norm/scale/v_row          size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_4/self_attention/key/kernel/m                        size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_4/self_attention/key/kernel/v                        size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_4/self_attention/key/kernel/v_col                    size 512          shape (512,)                                   partition spec None
+Variable param_states/decoder/layers_4/self_attention/key/kernel/v_row                    size 384          shape (384,)                                   partition spec None
+Variable param_states/decoder/layers_4/self_attention/out/kernel/m                        size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_4/self_attention/out/kernel/v                        size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_4/self_attention/out/kernel/v_col                    size 512          shape (512,)                                   partition spec None
+Variable param_states/decoder/layers_4/self_attention/out/kernel/v_row                    size 384          shape (384,)                                   partition spec None
+Variable param_states/decoder/layers_4/self_attention/query/kernel/m                      size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_4/self_attention/query/kernel/v                      size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_4/self_attention/query/kernel/v_col                  size 512          shape (512,)                                   partition spec None
+Variable param_states/decoder/layers_4/self_attention/query/kernel/v_row                  size 384          shape (384,)                                   partition spec None
+Variable param_states/decoder/layers_4/self_attention/value/kernel/m                      size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_4/self_attention/value/kernel/v                      size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_4/self_attention/value/kernel/v_col                  size 512          shape (512,)                                   partition spec None
+Variable param_states/decoder/layers_4/self_attention/value/kernel/v_row                  size 384          shape (384,)                                   partition spec None
+Variable param_states/decoder/layers_5/encoder_decoder_attention/key/kernel/m             size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_5/encoder_decoder_attention/key/kernel/v             size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_5/encoder_decoder_attention/key/kernel/v_col         size 512          shape (512,)                                   partition spec None
+Variable param_states/decoder/layers_5/encoder_decoder_attention/key/kernel/v_row         size 384          shape (384,)                                   partition spec None
+Variable param_states/decoder/layers_5/encoder_decoder_attention/out/kernel/m             size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_5/encoder_decoder_attention/out/kernel/v             size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_5/encoder_decoder_attention/out/kernel/v_col         size 512          shape (512,)                                   partition spec None
+Variable param_states/decoder/layers_5/encoder_decoder_attention/out/kernel/v_row         size 384          shape (384,)                                   partition spec None
+Variable param_states/decoder/layers_5/encoder_decoder_attention/query/kernel/m           size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_5/encoder_decoder_attention/query/kernel/v           size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_5/encoder_decoder_attention/query/kernel/v_col       size 512          shape (512,)                                   partition spec None
+Variable param_states/decoder/layers_5/encoder_decoder_attention/query/kernel/v_row       size 384          shape (384,)                                   partition spec None
+Variable param_states/decoder/layers_5/encoder_decoder_attention/value/kernel/m           size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_5/encoder_decoder_attention/value/kernel/v           size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_5/encoder_decoder_attention/value/kernel/v_col       size 512          shape (512,)                                   partition spec None
+Variable param_states/decoder/layers_5/encoder_decoder_attention/value/kernel/v_row       size 384          shape (384,)                                   partition spec None
+Variable param_states/decoder/layers_5/mlp/wi_0/kernel/m                                  size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_5/mlp/wi_0/kernel/v                                  size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_5/mlp/wi_0/kernel/v_col                              size 1024         shape (1024,)                                  partition spec None
+Variable param_states/decoder/layers_5/mlp/wi_0/kernel/v_row                              size 512          shape (512,)                                   partition spec None
+Variable param_states/decoder/layers_5/mlp/wi_1/kernel/m                                  size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_5/mlp/wi_1/kernel/v                                  size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_5/mlp/wi_1/kernel/v_col                              size 1024         shape (1024,)                                  partition spec None
+Variable param_states/decoder/layers_5/mlp/wi_1/kernel/v_row                              size 512          shape (512,)                                   partition spec None
+Variable param_states/decoder/layers_5/mlp/wo/kernel/m                                    size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_5/mlp/wo/kernel/v                                    size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_5/mlp/wo/kernel/v_col                                size 1024         shape (1024,)                                  partition spec None
+Variable param_states/decoder/layers_5/mlp/wo/kernel/v_row                                size 512          shape (512,)                                   partition spec None
+Variable param_states/decoder/layers_5/pre_cross_attention_layer_norm/scale/m             size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_5/pre_cross_attention_layer_norm/scale/v             size 512          shape (embed=512)                              partition spec (None,)
+Variable param_states/decoder/layers_5/pre_cross_attention_layer_norm/scale/v_col         size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_5/pre_cross_attention_layer_norm/scale/v_row         size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_5/pre_mlp_layer_norm/scale/m                         size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_5/pre_mlp_layer_norm/scale/v                         size 512          shape (embed=512)                              partition spec (None,)
+Variable param_states/decoder/layers_5/pre_mlp_layer_norm/scale/v_col                     size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_5/pre_mlp_layer_norm/scale/v_row                     size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_5/pre_self_attention_layer_norm/scale/m              size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_5/pre_self_attention_layer_norm/scale/v              size 512          shape (embed=512)                              partition spec (None,)
+Variable param_states/decoder/layers_5/pre_self_attention_layer_norm/scale/v_col          size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_5/pre_self_attention_layer_norm/scale/v_row          size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_5/self_attention/key/kernel/m                        size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_5/self_attention/key/kernel/v                        size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_5/self_attention/key/kernel/v_col                    size 512          shape (512,)                                   partition spec None
+Variable param_states/decoder/layers_5/self_attention/key/kernel/v_row                    size 384          shape (384,)                                   partition spec None
+Variable param_states/decoder/layers_5/self_attention/out/kernel/m                        size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_5/self_attention/out/kernel/v                        size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_5/self_attention/out/kernel/v_col                    size 512          shape (512,)                                   partition spec None
+Variable param_states/decoder/layers_5/self_attention/out/kernel/v_row                    size 384          shape (384,)                                   partition spec None
+Variable param_states/decoder/layers_5/self_attention/query/kernel/m                      size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_5/self_attention/query/kernel/v                      size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_5/self_attention/query/kernel/v_col                  size 512          shape (512,)                                   partition spec None
+Variable param_states/decoder/layers_5/self_attention/query/kernel/v_row                  size 384          shape (384,)                                   partition spec None
+Variable param_states/decoder/layers_5/self_attention/value/kernel/m                      size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_5/self_attention/value/kernel/v                      size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_5/self_attention/value/kernel/v_col                  size 512          shape (512,)                                   partition spec None
+Variable param_states/decoder/layers_5/self_attention/value/kernel/v_row                  size 384          shape (384,)                                   partition spec None
+Variable param_states/decoder/layers_6/encoder_decoder_attention/key/kernel/m             size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_6/encoder_decoder_attention/key/kernel/v             size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_6/encoder_decoder_attention/key/kernel/v_col         size 512          shape (512,)                                   partition spec None
+Variable param_states/decoder/layers_6/encoder_decoder_attention/key/kernel/v_row         size 384          shape (384,)                                   partition spec None
+Variable param_states/decoder/layers_6/encoder_decoder_attention/out/kernel/m             size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_6/encoder_decoder_attention/out/kernel/v             size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_6/encoder_decoder_attention/out/kernel/v_col         size 512          shape (512,)                                   partition spec None
+Variable param_states/decoder/layers_6/encoder_decoder_attention/out/kernel/v_row         size 384          shape (384,)                                   partition spec None
+Variable param_states/decoder/layers_6/encoder_decoder_attention/query/kernel/m           size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_6/encoder_decoder_attention/query/kernel/v           size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_6/encoder_decoder_attention/query/kernel/v_col       size 512          shape (512,)                                   partition spec None
+Variable param_states/decoder/layers_6/encoder_decoder_attention/query/kernel/v_row       size 384          shape (384,)                                   partition spec None
+Variable param_states/decoder/layers_6/encoder_decoder_attention/value/kernel/m           size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_6/encoder_decoder_attention/value/kernel/v           size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_6/encoder_decoder_attention/value/kernel/v_col       size 512          shape (512,)                                   partition spec None
+Variable param_states/decoder/layers_6/encoder_decoder_attention/value/kernel/v_row       size 384          shape (384,)                                   partition spec None
+Variable param_states/decoder/layers_6/mlp/wi_0/kernel/m                                  size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_6/mlp/wi_0/kernel/v                                  size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_6/mlp/wi_0/kernel/v_col                              size 1024         shape (1024,)                                  partition spec None
+Variable param_states/decoder/layers_6/mlp/wi_0/kernel/v_row                              size 512          shape (512,)                                   partition spec None
+Variable param_states/decoder/layers_6/mlp/wi_1/kernel/m                                  size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_6/mlp/wi_1/kernel/v                                  size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_6/mlp/wi_1/kernel/v_col                              size 1024         shape (1024,)                                  partition spec None
+Variable param_states/decoder/layers_6/mlp/wi_1/kernel/v_row                              size 512          shape (512,)                                   partition spec None
+Variable param_states/decoder/layers_6/mlp/wo/kernel/m                                    size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_6/mlp/wo/kernel/v                                    size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_6/mlp/wo/kernel/v_col                                size 1024         shape (1024,)                                  partition spec None
+Variable param_states/decoder/layers_6/mlp/wo/kernel/v_row                                size 512          shape (512,)                                   partition spec None
+Variable param_states/decoder/layers_6/pre_cross_attention_layer_norm/scale/m             size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_6/pre_cross_attention_layer_norm/scale/v             size 512          shape (embed=512)                              partition spec (None,)
+Variable param_states/decoder/layers_6/pre_cross_attention_layer_norm/scale/v_col         size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_6/pre_cross_attention_layer_norm/scale/v_row         size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_6/pre_mlp_layer_norm/scale/m                         size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_6/pre_mlp_layer_norm/scale/v                         size 512          shape (embed=512)                              partition spec (None,)
+Variable param_states/decoder/layers_6/pre_mlp_layer_norm/scale/v_col                     size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_6/pre_mlp_layer_norm/scale/v_row                     size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_6/pre_self_attention_layer_norm/scale/m              size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_6/pre_self_attention_layer_norm/scale/v              size 512          shape (embed=512)                              partition spec (None,)
+Variable param_states/decoder/layers_6/pre_self_attention_layer_norm/scale/v_col          size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_6/pre_self_attention_layer_norm/scale/v_row          size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_6/self_attention/key/kernel/m                        size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_6/self_attention/key/kernel/v                        size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_6/self_attention/key/kernel/v_col                    size 512          shape (512,)                                   partition spec None
+Variable param_states/decoder/layers_6/self_attention/key/kernel/v_row                    size 384          shape (384,)                                   partition spec None
+Variable param_states/decoder/layers_6/self_attention/out/kernel/m                        size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_6/self_attention/out/kernel/v                        size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_6/self_attention/out/kernel/v_col                    size 512          shape (512,)                                   partition spec None
+Variable param_states/decoder/layers_6/self_attention/out/kernel/v_row                    size 384          shape (384,)                                   partition spec None
+Variable param_states/decoder/layers_6/self_attention/query/kernel/m                      size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_6/self_attention/query/kernel/v                      size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_6/self_attention/query/kernel/v_col                  size 512          shape (512,)                                   partition spec None
+Variable param_states/decoder/layers_6/self_attention/query/kernel/v_row                  size 384          shape (384,)                                   partition spec None
+Variable param_states/decoder/layers_6/self_attention/value/kernel/m                      size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_6/self_attention/value/kernel/v                      size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_6/self_attention/value/kernel/v_col                  size 512          shape (512,)                                   partition spec None
+Variable param_states/decoder/layers_6/self_attention/value/kernel/v_row                  size 384          shape (384,)                                   partition spec None
+Variable param_states/decoder/layers_7/encoder_decoder_attention/key/kernel/m             size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_7/encoder_decoder_attention/key/kernel/v             size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_7/encoder_decoder_attention/key/kernel/v_col         size 512          shape (512,)                                   partition spec None
+Variable param_states/decoder/layers_7/encoder_decoder_attention/key/kernel/v_row         size 384          shape (384,)                                   partition spec None
+Variable param_states/decoder/layers_7/encoder_decoder_attention/out/kernel/m             size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_7/encoder_decoder_attention/out/kernel/v             size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_7/encoder_decoder_attention/out/kernel/v_col         size 512          shape (512,)                                   partition spec None
+Variable param_states/decoder/layers_7/encoder_decoder_attention/out/kernel/v_row         size 384          shape (384,)                                   partition spec None
+Variable param_states/decoder/layers_7/encoder_decoder_attention/query/kernel/m           size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_7/encoder_decoder_attention/query/kernel/v           size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_7/encoder_decoder_attention/query/kernel/v_col       size 512          shape (512,)                                   partition spec None
+Variable param_states/decoder/layers_7/encoder_decoder_attention/query/kernel/v_row       size 384          shape (384,)                                   partition spec None
+Variable param_states/decoder/layers_7/encoder_decoder_attention/value/kernel/m           size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_7/encoder_decoder_attention/value/kernel/v           size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_7/encoder_decoder_attention/value/kernel/v_col       size 512          shape (512,)                                   partition spec None
+Variable param_states/decoder/layers_7/encoder_decoder_attention/value/kernel/v_row       size 384          shape (384,)                                   partition spec None
+Variable param_states/decoder/layers_7/mlp/wi_0/kernel/m                                  size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_7/mlp/wi_0/kernel/v                                  size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_7/mlp/wi_0/kernel/v_col                              size 1024         shape (1024,)                                  partition spec None
+Variable param_states/decoder/layers_7/mlp/wi_0/kernel/v_row                              size 512          shape (512,)                                   partition spec None
+Variable param_states/decoder/layers_7/mlp/wi_1/kernel/m                                  size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_7/mlp/wi_1/kernel/v                                  size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_7/mlp/wi_1/kernel/v_col                              size 1024         shape (1024,)                                  partition spec None
+Variable param_states/decoder/layers_7/mlp/wi_1/kernel/v_row                              size 512          shape (512,)                                   partition spec None
+Variable param_states/decoder/layers_7/mlp/wo/kernel/m                                    size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_7/mlp/wo/kernel/v                                    size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_7/mlp/wo/kernel/v_col                                size 1024         shape (1024,)                                  partition spec None
+Variable param_states/decoder/layers_7/mlp/wo/kernel/v_row                                size 512          shape (512,)                                   partition spec None
+Variable param_states/decoder/layers_7/pre_cross_attention_layer_norm/scale/m             size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_7/pre_cross_attention_layer_norm/scale/v             size 512          shape (embed=512)                              partition spec (None,)
+Variable param_states/decoder/layers_7/pre_cross_attention_layer_norm/scale/v_col         size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_7/pre_cross_attention_layer_norm/scale/v_row         size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_7/pre_mlp_layer_norm/scale/m                         size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_7/pre_mlp_layer_norm/scale/v                         size 512          shape (embed=512)                              partition spec (None,)
+Variable param_states/decoder/layers_7/pre_mlp_layer_norm/scale/v_col                     size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_7/pre_mlp_layer_norm/scale/v_row                     size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_7/pre_self_attention_layer_norm/scale/m              size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_7/pre_self_attention_layer_norm/scale/v              size 512          shape (embed=512)                              partition spec (None,)
+Variable param_states/decoder/layers_7/pre_self_attention_layer_norm/scale/v_col          size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_7/pre_self_attention_layer_norm/scale/v_row          size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_7/self_attention/key/kernel/m                        size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_7/self_attention/key/kernel/v                        size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_7/self_attention/key/kernel/v_col                    size 512          shape (512,)                                   partition spec None
+Variable param_states/decoder/layers_7/self_attention/key/kernel/v_row                    size 384          shape (384,)                                   partition spec None
+Variable param_states/decoder/layers_7/self_attention/out/kernel/m                        size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_7/self_attention/out/kernel/v                        size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_7/self_attention/out/kernel/v_col                    size 512          shape (512,)                                   partition spec None
+Variable param_states/decoder/layers_7/self_attention/out/kernel/v_row                    size 384          shape (384,)                                   partition spec None
+Variable param_states/decoder/layers_7/self_attention/query/kernel/m                      size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_7/self_attention/query/kernel/v                      size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_7/self_attention/query/kernel/v_col                  size 512          shape (512,)                                   partition spec None
+Variable param_states/decoder/layers_7/self_attention/query/kernel/v_row                  size 384          shape (384,)                                   partition spec None
+Variable param_states/decoder/layers_7/self_attention/value/kernel/m                      size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_7/self_attention/value/kernel/v                      size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/layers_7/self_attention/value/kernel/v_col                  size 512          shape (512,)                                   partition spec None
+Variable param_states/decoder/layers_7/self_attention/value/kernel/v_row                  size 384          shape (384,)                                   partition spec None
+Variable param_states/decoder/logits_dense/kernel/m                                       size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/logits_dense/kernel/v                                       size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/logits_dense/kernel/v_col                                   size 1536         shape (1536,)                                  partition spec None
+Variable param_states/decoder/logits_dense/kernel/v_row                                   size 512          shape (512,)                                   partition spec None
+Variable param_states/decoder/token_embedder/embedding/m                                  size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/token_embedder/embedding/v                                  size 1            shape (1,)                                     partition spec None
+Variable param_states/decoder/token_embedder/embedding/v_col                              size 1536         shape (1536,)                                  partition spec None
+Variable param_states/decoder/token_embedder/embedding/v_row                              size 512          shape (512,)                                   partition spec None
+Variable param_states/encoder/continuous_inputs_projection/kernel/m                       size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/continuous_inputs_projection/kernel/v                       size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/continuous_inputs_projection/kernel/v_col                   size 512          shape (512,)                                   partition spec None
+Variable param_states/encoder/continuous_inputs_projection/kernel/v_row                   size 512          shape (512,)                                   partition spec None
+Variable param_states/encoder/encoder_norm/scale/m                                        size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/encoder_norm/scale/v                                        size 512          shape (embed=512)                              partition spec (None,)
+Variable param_states/encoder/encoder_norm/scale/v_col                                    size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/encoder_norm/scale/v_row                                    size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_0/attention/key/kernel/m                             size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_0/attention/key/kernel/v                             size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_0/attention/key/kernel/v_col                         size 512          shape (512,)                                   partition spec None
+Variable param_states/encoder/layers_0/attention/key/kernel/v_row                         size 384          shape (384,)                                   partition spec None
+Variable param_states/encoder/layers_0/attention/out/kernel/m                             size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_0/attention/out/kernel/v                             size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_0/attention/out/kernel/v_col                         size 512          shape (512,)                                   partition spec None
+Variable param_states/encoder/layers_0/attention/out/kernel/v_row                         size 384          shape (384,)                                   partition spec None
+Variable param_states/encoder/layers_0/attention/query/kernel/m                           size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_0/attention/query/kernel/v                           size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_0/attention/query/kernel/v_col                       size 512          shape (512,)                                   partition spec None
+Variable param_states/encoder/layers_0/attention/query/kernel/v_row                       size 384          shape (384,)                                   partition spec None
+Variable param_states/encoder/layers_0/attention/value/kernel/m                           size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_0/attention/value/kernel/v                           size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_0/attention/value/kernel/v_col                       size 512          shape (512,)                                   partition spec None
+Variable param_states/encoder/layers_0/attention/value/kernel/v_row                       size 384          shape (384,)                                   partition spec None
+Variable param_states/encoder/layers_0/mlp/wi_0/kernel/m                                  size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_0/mlp/wi_0/kernel/v                                  size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_0/mlp/wi_0/kernel/v_col                              size 1024         shape (1024,)                                  partition spec None
+Variable param_states/encoder/layers_0/mlp/wi_0/kernel/v_row                              size 512          shape (512,)                                   partition spec None
+Variable param_states/encoder/layers_0/mlp/wi_1/kernel/m                                  size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_0/mlp/wi_1/kernel/v                                  size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_0/mlp/wi_1/kernel/v_col                              size 1024         shape (1024,)                                  partition spec None
+Variable param_states/encoder/layers_0/mlp/wi_1/kernel/v_row                              size 512          shape (512,)                                   partition spec None
+Variable param_states/encoder/layers_0/mlp/wo/kernel/m                                    size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_0/mlp/wo/kernel/v                                    size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_0/mlp/wo/kernel/v_col                                size 1024         shape (1024,)                                  partition spec None
+Variable param_states/encoder/layers_0/mlp/wo/kernel/v_row                                size 512          shape (512,)                                   partition spec None
+Variable param_states/encoder/layers_0/pre_attention_layer_norm/scale/m                   size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_0/pre_attention_layer_norm/scale/v                   size 512          shape (embed=512)                              partition spec (None,)
+Variable param_states/encoder/layers_0/pre_attention_layer_norm/scale/v_col               size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_0/pre_attention_layer_norm/scale/v_row               size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_0/pre_mlp_layer_norm/scale/m                         size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_0/pre_mlp_layer_norm/scale/v                         size 512          shape (embed=512)                              partition spec (None,)
+Variable param_states/encoder/layers_0/pre_mlp_layer_norm/scale/v_col                     size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_0/pre_mlp_layer_norm/scale/v_row                     size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_1/attention/key/kernel/m                             size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_1/attention/key/kernel/v                             size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_1/attention/key/kernel/v_col                         size 512          shape (512,)                                   partition spec None
+Variable param_states/encoder/layers_1/attention/key/kernel/v_row                         size 384          shape (384,)                                   partition spec None
+Variable param_states/encoder/layers_1/attention/out/kernel/m                             size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_1/attention/out/kernel/v                             size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_1/attention/out/kernel/v_col                         size 512          shape (512,)                                   partition spec None
+Variable param_states/encoder/layers_1/attention/out/kernel/v_row                         size 384          shape (384,)                                   partition spec None
+Variable param_states/encoder/layers_1/attention/query/kernel/m                           size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_1/attention/query/kernel/v                           size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_1/attention/query/kernel/v_col                       size 512          shape (512,)                                   partition spec None
+Variable param_states/encoder/layers_1/attention/query/kernel/v_row                       size 384          shape (384,)                                   partition spec None
+Variable param_states/encoder/layers_1/attention/value/kernel/m                           size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_1/attention/value/kernel/v                           size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_1/attention/value/kernel/v_col                       size 512          shape (512,)                                   partition spec None
+Variable param_states/encoder/layers_1/attention/value/kernel/v_row                       size 384          shape (384,)                                   partition spec None
+Variable param_states/encoder/layers_1/mlp/wi_0/kernel/m                                  size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_1/mlp/wi_0/kernel/v                                  size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_1/mlp/wi_0/kernel/v_col                              size 1024         shape (1024,)                                  partition spec None
+Variable param_states/encoder/layers_1/mlp/wi_0/kernel/v_row                              size 512          shape (512,)                                   partition spec None
+Variable param_states/encoder/layers_1/mlp/wi_1/kernel/m                                  size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_1/mlp/wi_1/kernel/v                                  size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_1/mlp/wi_1/kernel/v_col                              size 1024         shape (1024,)                                  partition spec None
+Variable param_states/encoder/layers_1/mlp/wi_1/kernel/v_row                              size 512          shape (512,)                                   partition spec None
+Variable param_states/encoder/layers_1/mlp/wo/kernel/m                                    size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_1/mlp/wo/kernel/v                                    size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_1/mlp/wo/kernel/v_col                                size 1024         shape (1024,)                                  partition spec None
+Variable param_states/encoder/layers_1/mlp/wo/kernel/v_row                                size 512          shape (512,)                                   partition spec None
+Variable param_states/encoder/layers_1/pre_attention_layer_norm/scale/m                   size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_1/pre_attention_layer_norm/scale/v                   size 512          shape (embed=512)                              partition spec (None,)
+Variable param_states/encoder/layers_1/pre_attention_layer_norm/scale/v_col               size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_1/pre_attention_layer_norm/scale/v_row               size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_1/pre_mlp_layer_norm/scale/m                         size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_1/pre_mlp_layer_norm/scale/v                         size 512          shape (embed=512)                              partition spec (None,)
+Variable param_states/encoder/layers_1/pre_mlp_layer_norm/scale/v_col                     size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_1/pre_mlp_layer_norm/scale/v_row                     size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_2/attention/key/kernel/m                             size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_2/attention/key/kernel/v                             size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_2/attention/key/kernel/v_col                         size 512          shape (512,)                                   partition spec None
+Variable param_states/encoder/layers_2/attention/key/kernel/v_row                         size 384          shape (384,)                                   partition spec None
+Variable param_states/encoder/layers_2/attention/out/kernel/m                             size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_2/attention/out/kernel/v                             size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_2/attention/out/kernel/v_col                         size 512          shape (512,)                                   partition spec None
+Variable param_states/encoder/layers_2/attention/out/kernel/v_row                         size 384          shape (384,)                                   partition spec None
+Variable param_states/encoder/layers_2/attention/query/kernel/m                           size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_2/attention/query/kernel/v                           size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_2/attention/query/kernel/v_col                       size 512          shape (512,)                                   partition spec None
+Variable param_states/encoder/layers_2/attention/query/kernel/v_row                       size 384          shape (384,)                                   partition spec None
+Variable param_states/encoder/layers_2/attention/value/kernel/m                           size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_2/attention/value/kernel/v                           size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_2/attention/value/kernel/v_col                       size 512          shape (512,)                                   partition spec None
+Variable param_states/encoder/layers_2/attention/value/kernel/v_row                       size 384          shape (384,)                                   partition spec None
+Variable param_states/encoder/layers_2/mlp/wi_0/kernel/m                                  size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_2/mlp/wi_0/kernel/v                                  size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_2/mlp/wi_0/kernel/v_col                              size 1024         shape (1024,)                                  partition spec None
+Variable param_states/encoder/layers_2/mlp/wi_0/kernel/v_row                              size 512          shape (512,)                                   partition spec None
+Variable param_states/encoder/layers_2/mlp/wi_1/kernel/m                                  size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_2/mlp/wi_1/kernel/v                                  size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_2/mlp/wi_1/kernel/v_col                              size 1024         shape (1024,)                                  partition spec None
+Variable param_states/encoder/layers_2/mlp/wi_1/kernel/v_row                              size 512          shape (512,)                                   partition spec None
+Variable param_states/encoder/layers_2/mlp/wo/kernel/m                                    size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_2/mlp/wo/kernel/v                                    size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_2/mlp/wo/kernel/v_col                                size 1024         shape (1024,)                                  partition spec None
+Variable param_states/encoder/layers_2/mlp/wo/kernel/v_row                                size 512          shape (512,)                                   partition spec None
+Variable param_states/encoder/layers_2/pre_attention_layer_norm/scale/m                   size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_2/pre_attention_layer_norm/scale/v                   size 512          shape (embed=512)                              partition spec (None,)
+Variable param_states/encoder/layers_2/pre_attention_layer_norm/scale/v_col               size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_2/pre_attention_layer_norm/scale/v_row               size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_2/pre_mlp_layer_norm/scale/m                         size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_2/pre_mlp_layer_norm/scale/v                         size 512          shape (embed=512)                              partition spec (None,)
+Variable param_states/encoder/layers_2/pre_mlp_layer_norm/scale/v_col                     size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_2/pre_mlp_layer_norm/scale/v_row                     size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_3/attention/key/kernel/m                             size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_3/attention/key/kernel/v                             size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_3/attention/key/kernel/v_col                         size 512          shape (512,)                                   partition spec None
+Variable param_states/encoder/layers_3/attention/key/kernel/v_row                         size 384          shape (384,)                                   partition spec None
+Variable param_states/encoder/layers_3/attention/out/kernel/m                             size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_3/attention/out/kernel/v                             size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_3/attention/out/kernel/v_col                         size 512          shape (512,)                                   partition spec None
+Variable param_states/encoder/layers_3/attention/out/kernel/v_row                         size 384          shape (384,)                                   partition spec None
+Variable param_states/encoder/layers_3/attention/query/kernel/m                           size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_3/attention/query/kernel/v                           size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_3/attention/query/kernel/v_col                       size 512          shape (512,)                                   partition spec None
+Variable param_states/encoder/layers_3/attention/query/kernel/v_row                       size 384          shape (384,)                                   partition spec None
+Variable param_states/encoder/layers_3/attention/value/kernel/m                           size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_3/attention/value/kernel/v                           size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_3/attention/value/kernel/v_col                       size 512          shape (512,)                                   partition spec None
+Variable param_states/encoder/layers_3/attention/value/kernel/v_row                       size 384          shape (384,)                                   partition spec None
+Variable param_states/encoder/layers_3/mlp/wi_0/kernel/m                                  size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_3/mlp/wi_0/kernel/v                                  size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_3/mlp/wi_0/kernel/v_col                              size 1024         shape (1024,)                                  partition spec None
+Variable param_states/encoder/layers_3/mlp/wi_0/kernel/v_row                              size 512          shape (512,)                                   partition spec None
+Variable param_states/encoder/layers_3/mlp/wi_1/kernel/m                                  size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_3/mlp/wi_1/kernel/v                                  size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_3/mlp/wi_1/kernel/v_col                              size 1024         shape (1024,)                                  partition spec None
+Variable param_states/encoder/layers_3/mlp/wi_1/kernel/v_row                              size 512          shape (512,)                                   partition spec None
+Variable param_states/encoder/layers_3/mlp/wo/kernel/m                                    size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_3/mlp/wo/kernel/v                                    size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_3/mlp/wo/kernel/v_col                                size 1024         shape (1024,)                                  partition spec None
+Variable param_states/encoder/layers_3/mlp/wo/kernel/v_row                                size 512          shape (512,)                                   partition spec None
+Variable param_states/encoder/layers_3/pre_attention_layer_norm/scale/m                   size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_3/pre_attention_layer_norm/scale/v                   size 512          shape (embed=512)                              partition spec (None,)
+Variable param_states/encoder/layers_3/pre_attention_layer_norm/scale/v_col               size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_3/pre_attention_layer_norm/scale/v_row               size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_3/pre_mlp_layer_norm/scale/m                         size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_3/pre_mlp_layer_norm/scale/v                         size 512          shape (embed=512)                              partition spec (None,)
+Variable param_states/encoder/layers_3/pre_mlp_layer_norm/scale/v_col                     size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_3/pre_mlp_layer_norm/scale/v_row                     size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_4/attention/key/kernel/m                             size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_4/attention/key/kernel/v                             size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_4/attention/key/kernel/v_col                         size 512          shape (512,)                                   partition spec None
+Variable param_states/encoder/layers_4/attention/key/kernel/v_row                         size 384          shape (384,)                                   partition spec None
+Variable param_states/encoder/layers_4/attention/out/kernel/m                             size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_4/attention/out/kernel/v                             size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_4/attention/out/kernel/v_col                         size 512          shape (512,)                                   partition spec None
+Variable param_states/encoder/layers_4/attention/out/kernel/v_row                         size 384          shape (384,)                                   partition spec None
+Variable param_states/encoder/layers_4/attention/query/kernel/m                           size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_4/attention/query/kernel/v                           size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_4/attention/query/kernel/v_col                       size 512          shape (512,)                                   partition spec None
+Variable param_states/encoder/layers_4/attention/query/kernel/v_row                       size 384          shape (384,)                                   partition spec None
+Variable param_states/encoder/layers_4/attention/value/kernel/m                           size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_4/attention/value/kernel/v                           size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_4/attention/value/kernel/v_col                       size 512          shape (512,)                                   partition spec None
+Variable param_states/encoder/layers_4/attention/value/kernel/v_row                       size 384          shape (384,)                                   partition spec None
+Variable param_states/encoder/layers_4/mlp/wi_0/kernel/m                                  size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_4/mlp/wi_0/kernel/v                                  size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_4/mlp/wi_0/kernel/v_col                              size 1024         shape (1024,)                                  partition spec None
+Variable param_states/encoder/layers_4/mlp/wi_0/kernel/v_row                              size 512          shape (512,)                                   partition spec None
+Variable param_states/encoder/layers_4/mlp/wi_1/kernel/m                                  size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_4/mlp/wi_1/kernel/v                                  size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_4/mlp/wi_1/kernel/v_col                              size 1024         shape (1024,)                                  partition spec None
+Variable param_states/encoder/layers_4/mlp/wi_1/kernel/v_row                              size 512          shape (512,)                                   partition spec None
+Variable param_states/encoder/layers_4/mlp/wo/kernel/m                                    size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_4/mlp/wo/kernel/v                                    size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_4/mlp/wo/kernel/v_col                                size 1024         shape (1024,)                                  partition spec None
+Variable param_states/encoder/layers_4/mlp/wo/kernel/v_row                                size 512          shape (512,)                                   partition spec None
+Variable param_states/encoder/layers_4/pre_attention_layer_norm/scale/m                   size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_4/pre_attention_layer_norm/scale/v                   size 512          shape (embed=512)                              partition spec (None,)
+Variable param_states/encoder/layers_4/pre_attention_layer_norm/scale/v_col               size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_4/pre_attention_layer_norm/scale/v_row               size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_4/pre_mlp_layer_norm/scale/m                         size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_4/pre_mlp_layer_norm/scale/v                         size 512          shape (embed=512)                              partition spec (None,)
+Variable param_states/encoder/layers_4/pre_mlp_layer_norm/scale/v_col                     size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_4/pre_mlp_layer_norm/scale/v_row                     size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_5/attention/key/kernel/m                             size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_5/attention/key/kernel/v                             size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_5/attention/key/kernel/v_col                         size 512          shape (512,)                                   partition spec None
+Variable param_states/encoder/layers_5/attention/key/kernel/v_row                         size 384          shape (384,)                                   partition spec None
+Variable param_states/encoder/layers_5/attention/out/kernel/m                             size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_5/attention/out/kernel/v                             size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_5/attention/out/kernel/v_col                         size 512          shape (512,)                                   partition spec None
+Variable param_states/encoder/layers_5/attention/out/kernel/v_row                         size 384          shape (384,)                                   partition spec None
+Variable param_states/encoder/layers_5/attention/query/kernel/m                           size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_5/attention/query/kernel/v                           size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_5/attention/query/kernel/v_col                       size 512          shape (512,)                                   partition spec None
+Variable param_states/encoder/layers_5/attention/query/kernel/v_row                       size 384          shape (384,)                                   partition spec None
+Variable param_states/encoder/layers_5/attention/value/kernel/m                           size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_5/attention/value/kernel/v                           size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_5/attention/value/kernel/v_col                       size 512          shape (512,)                                   partition spec None
+Variable param_states/encoder/layers_5/attention/value/kernel/v_row                       size 384          shape (384,)                                   partition spec None
+Variable param_states/encoder/layers_5/mlp/wi_0/kernel/m                                  size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_5/mlp/wi_0/kernel/v                                  size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_5/mlp/wi_0/kernel/v_col                              size 1024         shape (1024,)                                  partition spec None
+Variable param_states/encoder/layers_5/mlp/wi_0/kernel/v_row                              size 512          shape (512,)                                   partition spec None
+Variable param_states/encoder/layers_5/mlp/wi_1/kernel/m                                  size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_5/mlp/wi_1/kernel/v                                  size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_5/mlp/wi_1/kernel/v_col                              size 1024         shape (1024,)                                  partition spec None
+Variable param_states/encoder/layers_5/mlp/wi_1/kernel/v_row                              size 512          shape (512,)                                   partition spec None
+Variable param_states/encoder/layers_5/mlp/wo/kernel/m                                    size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_5/mlp/wo/kernel/v                                    size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_5/mlp/wo/kernel/v_col                                size 1024         shape (1024,)                                  partition spec None
+Variable param_states/encoder/layers_5/mlp/wo/kernel/v_row                                size 512          shape (512,)                                   partition spec None
+Variable param_states/encoder/layers_5/pre_attention_layer_norm/scale/m                   size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_5/pre_attention_layer_norm/scale/v                   size 512          shape (embed=512)                              partition spec (None,)
+Variable param_states/encoder/layers_5/pre_attention_layer_norm/scale/v_col               size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_5/pre_attention_layer_norm/scale/v_row               size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_5/pre_mlp_layer_norm/scale/m                         size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_5/pre_mlp_layer_norm/scale/v                         size 512          shape (embed=512)                              partition spec (None,)
+Variable param_states/encoder/layers_5/pre_mlp_layer_norm/scale/v_col                     size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_5/pre_mlp_layer_norm/scale/v_row                     size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_6/attention/key/kernel/m                             size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_6/attention/key/kernel/v                             size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_6/attention/key/kernel/v_col                         size 512          shape (512,)                                   partition spec None
+Variable param_states/encoder/layers_6/attention/key/kernel/v_row                         size 384          shape (384,)                                   partition spec None
+Variable param_states/encoder/layers_6/attention/out/kernel/m                             size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_6/attention/out/kernel/v                             size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_6/attention/out/kernel/v_col                         size 512          shape (512,)                                   partition spec None
+Variable param_states/encoder/layers_6/attention/out/kernel/v_row                         size 384          shape (384,)                                   partition spec None
+Variable param_states/encoder/layers_6/attention/query/kernel/m                           size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_6/attention/query/kernel/v                           size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_6/attention/query/kernel/v_col                       size 512          shape (512,)                                   partition spec None
+Variable param_states/encoder/layers_6/attention/query/kernel/v_row                       size 384          shape (384,)                                   partition spec None
+Variable param_states/encoder/layers_6/attention/value/kernel/m                           size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_6/attention/value/kernel/v                           size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_6/attention/value/kernel/v_col                       size 512          shape (512,)                                   partition spec None
+Variable param_states/encoder/layers_6/attention/value/kernel/v_row                       size 384          shape (384,)                                   partition spec None
+Variable param_states/encoder/layers_6/mlp/wi_0/kernel/m                                  size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_6/mlp/wi_0/kernel/v                                  size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_6/mlp/wi_0/kernel/v_col                              size 1024         shape (1024,)                                  partition spec None
+Variable param_states/encoder/layers_6/mlp/wi_0/kernel/v_row                              size 512          shape (512,)                                   partition spec None
+Variable param_states/encoder/layers_6/mlp/wi_1/kernel/m                                  size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_6/mlp/wi_1/kernel/v                                  size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_6/mlp/wi_1/kernel/v_col                              size 1024         shape (1024,)                                  partition spec None
+Variable param_states/encoder/layers_6/mlp/wi_1/kernel/v_row                              size 512          shape (512,)                                   partition spec None
+Variable param_states/encoder/layers_6/mlp/wo/kernel/m                                    size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_6/mlp/wo/kernel/v                                    size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_6/mlp/wo/kernel/v_col                                size 1024         shape (1024,)                                  partition spec None
+Variable param_states/encoder/layers_6/mlp/wo/kernel/v_row                                size 512          shape (512,)                                   partition spec None
+Variable param_states/encoder/layers_6/pre_attention_layer_norm/scale/m                   size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_6/pre_attention_layer_norm/scale/v                   size 512          shape (embed=512)                              partition spec (None,)
+Variable param_states/encoder/layers_6/pre_attention_layer_norm/scale/v_col               size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_6/pre_attention_layer_norm/scale/v_row               size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_6/pre_mlp_layer_norm/scale/m                         size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_6/pre_mlp_layer_norm/scale/v                         size 512          shape (embed=512)                              partition spec (None,)
+Variable param_states/encoder/layers_6/pre_mlp_layer_norm/scale/v_col                     size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_6/pre_mlp_layer_norm/scale/v_row                     size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_7/attention/key/kernel/m                             size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_7/attention/key/kernel/v                             size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_7/attention/key/kernel/v_col                         size 512          shape (512,)                                   partition spec None
+Variable param_states/encoder/layers_7/attention/key/kernel/v_row                         size 384          shape (384,)                                   partition spec None
+Variable param_states/encoder/layers_7/attention/out/kernel/m                             size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_7/attention/out/kernel/v                             size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_7/attention/out/kernel/v_col                         size 512          shape (512,)                                   partition spec None
+Variable param_states/encoder/layers_7/attention/out/kernel/v_row                         size 384          shape (384,)                                   partition spec None
+Variable param_states/encoder/layers_7/attention/query/kernel/m                           size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_7/attention/query/kernel/v                           size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_7/attention/query/kernel/v_col                       size 512          shape (512,)                                   partition spec None
+Variable param_states/encoder/layers_7/attention/query/kernel/v_row                       size 384          shape (384,)                                   partition spec None
+Variable param_states/encoder/layers_7/attention/value/kernel/m                           size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_7/attention/value/kernel/v                           size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_7/attention/value/kernel/v_col                       size 512          shape (512,)                                   partition spec None
+Variable param_states/encoder/layers_7/attention/value/kernel/v_row                       size 384          shape (384,)                                   partition spec None
+Variable param_states/encoder/layers_7/mlp/wi_0/kernel/m                                  size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_7/mlp/wi_0/kernel/v                                  size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_7/mlp/wi_0/kernel/v_col                              size 1024         shape (1024,)                                  partition spec None
+Variable param_states/encoder/layers_7/mlp/wi_0/kernel/v_row                              size 512          shape (512,)                                   partition spec None
+Variable param_states/encoder/layers_7/mlp/wi_1/kernel/m                                  size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_7/mlp/wi_1/kernel/v                                  size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_7/mlp/wi_1/kernel/v_col                              size 1024         shape (1024,)                                  partition spec None
+Variable param_states/encoder/layers_7/mlp/wi_1/kernel/v_row                              size 512          shape (512,)                                   partition spec None
+Variable param_states/encoder/layers_7/mlp/wo/kernel/m                                    size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_7/mlp/wo/kernel/v                                    size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_7/mlp/wo/kernel/v_col                                size 1024         shape (1024,)                                  partition spec None
+Variable param_states/encoder/layers_7/mlp/wo/kernel/v_row                                size 512          shape (512,)                                   partition spec None
+Variable param_states/encoder/layers_7/pre_attention_layer_norm/scale/m                   size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_7/pre_attention_layer_norm/scale/v                   size 512          shape (embed=512)                              partition spec (None,)
+Variable param_states/encoder/layers_7/pre_attention_layer_norm/scale/v_col               size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_7/pre_attention_layer_norm/scale/v_row               size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_7/pre_mlp_layer_norm/scale/m                         size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_7/pre_mlp_layer_norm/scale/v                         size 512          shape (embed=512)                              partition spec (None,)
+Variable param_states/encoder/layers_7/pre_mlp_layer_norm/scale/v_col                     size 1            shape (1,)                                     partition spec None
+Variable param_states/encoder/layers_7/pre_mlp_layer_norm/scale/v_row                     size 1            shape (1,)                                     partition spec None
+Variable step                                                                             size 1            shape ()                                       partition spec None
