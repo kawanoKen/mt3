@@ -1,1 +1,0 @@
-{"item_handlers": {"dataset": "t5x.checkpoints.DatasetCheckpointHandler", "state": "orbax.checkpoint._src.handlers.pytree_checkpoint_handler.PyTreeCheckpointHandler"}, "metrics": {}, "performance_metrics": {}, "init_timestamp_nsecs": 1759137629123393158, "commit_timestamp_nsecs": 1759137643283568737, "custom_metadata": {}}
