@@ -20,6 +20,7 @@ import jax.numpy as jnp
 import tensorflow as tf
 import seqio
 import t5x
+import tasks_local
 from t5x import train as t5x_train
 
 from jax.sharding import Mesh
